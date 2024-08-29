@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Abp_BeTech</RootNamespace>
+    <BaseOutputPath></BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abp_BeTech.Domain\Abp_BeTech.Domain.csproj" />
+    <ProjectReference Include="..\Abp_BeTech.Application.Contracts\Abp_BeTech.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="NUnit" Version="4.1.0" />
+    <PackageReference Include="Volo.Abp.Account.Application" Version="8.2.1" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="8.2.1" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="8.2.1" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="8.2.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="8.2.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="8.2.1" />
+  </ItemGroup>
+
+</Project>

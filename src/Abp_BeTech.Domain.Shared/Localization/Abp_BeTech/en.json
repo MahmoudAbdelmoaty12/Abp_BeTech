@@ -1,0 +1,16 @@
+{
+  "culture": "en",
+  "texts": {
+    "Menu:Home": "Home",
+    "Welcome": "Welcome",
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io."
+  },
+  
+    "Permission:Categorys Store": "Category Store",
+    "Permission:Categorys": "Category Management",
+    "Permission:Categorys.Create": "Creating new Category",
+    "Permission:Categorys.Edit": "Editing the Category",
+    "Permission:Categorys.Delete": "Deleting the Category"
+  
+  
+}
